@@ -11,7 +11,7 @@ import (
 	"sync"
 	"text/tabwriter"
 
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"go.uber.org/zap"
 
 	"github.com/helmfile/helmfile/pkg/argparser"

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
@@ -127,8 +127,8 @@ releases:
 		check(t, testcase{
 			environment: "default",
 			expected: `GROUP RELEASE                                         DEPENDENCIES
-1     default/kube-system/logging                     
-1     default/kube-system/disabled                    
+1     default/kube-system/logging
+1     default/kube-system/disabled
 2     default/kube-system/kubernetes-external-secrets default/kube-system/logging
 2     default//test2                                  default/kube-system/disabled
 3     default/default/external-secrets                default/kube-system/kubernetes-external-secrets

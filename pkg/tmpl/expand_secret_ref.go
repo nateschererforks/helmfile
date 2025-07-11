@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 
 	"github.com/helmfile/helmfile/pkg/plugins"
 )

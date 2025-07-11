@@ -3,7 +3,7 @@ package plugins
 import (
 	"sync"
 
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 )
 
 const (

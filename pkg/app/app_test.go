@@ -15,7 +15,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
@@ -4012,10 +4012,10 @@ releases:
 	assert.NoError(t, err)
 
 	expected := `NAME      	NAMESPACE    	ENABLED	INSTALLED	LABELS                                                                           	CHART   	VERSION
-myrelease1	testNamespace	true   	false    	chart:mychart1,common:label,id:myrelease1,name:myrelease1,namespace:testNamespace	mychart1	       
-myrelease2	testNamespace	false  	true     	chart:mychart1,common:label,name:myrelease2,namespace:testNamespace              	mychart1	       
-myrelease3	testNamespace	true   	true     	chart:mychart1,name:myrelease3,namespace:testNamespace                           	mychart1	       
-myrelease4	testNamespace	true   	true     	chart:mychart1,id:myrelease1,name:myrelease4,namespace:testNamespace             	mychart1	       
+myrelease1	testNamespace	true   	false    	chart:mychart1,common:label,id:myrelease1,name:myrelease1,namespace:testNamespace	mychart1
+myrelease2	testNamespace	false  	true     	chart:mychart1,common:label,name:myrelease2,namespace:testNamespace              	mychart1
+myrelease3	testNamespace	true   	true     	chart:mychart1,name:myrelease3,namespace:testNamespace                           	mychart1
+myrelease4	testNamespace	true   	true     	chart:mychart1,id:myrelease1,name:myrelease4,namespace:testNamespace             	mychart1
 `
 
 	assert.Equal(t, expected, out)
