@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

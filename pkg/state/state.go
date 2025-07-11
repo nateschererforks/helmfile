@@ -22,7 +22,7 @@ import (
 	"dario.cat/mergo"
 	"github.com/Masterminds/semver/v3"
 	"github.com/helmfile/chartify"
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"github.com/tatsushid/go-prettytable"
 	"go.uber.org/zap"
 	"helm.sh/helm/v3/pkg/cli"

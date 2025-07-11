@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"dario.cat/mergo"
-	"github.com/helmfile/vals"
+	"github.com/nateschererforks/vals"
 	"go.uber.org/zap"
 
 	"github.com/helmfile/helmfile/pkg/environment"
